@@ -4,6 +4,7 @@ import datetime
 
 class BaseModel:
      def __init__(self, *args, **kwargs):
+        from models import storage
         if kwargs:
             for key, value in kwargs.items():
                 if key == 'created_at' or key == 'updated_at':
@@ -15,12 +16,14 @@ class BaseModel:
                 self.id = str(uuid.uuid1())
                 self.created_at = datetime.datetime.now()
                 self.updated_at = datetime.datetime.now()
+                storage.new(self)
 
      def __str__(self):
         return "[{}] ({}) {}".format(self.__class__.__name__, self.id, self.__dict__)
     
      def save(self):
-        self.updated_at = datetime.datetime.now()
+        from models import storage 
+        storage.save()
 
      def to_dict(self):
         new_dict = self.__dict__.copy()
