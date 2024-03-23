@@ -3,9 +3,6 @@
  * The filters class is used to apply filters to elements on the webpage.
  */
 .filters{
-    /* CSS styles for the filters class go here */
-}
-.filters{
     background-color: white;
     width: 100%;
     height: 70px;
@@ -18,9 +15,6 @@
 /**
  * Defines the styles for buttons.
  */
-.button{
-    /* CSS properties for buttons go here */
-}
 .button{
     background-color: #FF5A5F;
     color: white;
@@ -37,9 +31,6 @@
 /**
  * CSS file for defining styles for the "locations" class.
  */
-.locations {
-    /* CSS rules for the "locations" class go here */
-}
 .locations{
     height: 100%;
     width: 25%;
