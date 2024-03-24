@@ -5,7 +5,7 @@ footer {
     display: flex;
     text-align: center;
     justify-content: center;
-    position: fixed;
+    position: relative;
     bottom: 0;
     border-top: 1px #CCCCCC solid;
 }

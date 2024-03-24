@@ -77,6 +77,8 @@
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
+    position: relative; 
+    z-index: 1000; /* Higher z-index */
 }
 
 /* Styles for the h2 element within the popover */
