@@ -1,0 +1,24 @@
+.places h1{
+    font-size: 30px;
+    margin: 20px 0 0 10px;
+    padding: 0;
+    text-align: left;
+}
+.places {
+    text-align: center;
+    position: relative;
+}
+
+.places_division{
+    text-align: center;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.places_division h2{
+    font-size: 30px;
+}
