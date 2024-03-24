@@ -26,6 +26,9 @@
     width: 20%;
     margin: 0 30px 0 auto;
 }
+.button:hover{
+    opacity: 0.9;
+}
 
 /* Styles for the locations class */
 .locations{
